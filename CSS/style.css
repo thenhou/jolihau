@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 120px; background-color: #F01942;
+}
+.text-trang{
+	color: white
+}
+.logo{
+	padding-top: 10px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu{
+	padding-top: 45px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none; color: #FFFFFF;font-size: 17px; font-weight: 800; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: white; color: #F01942
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:#F1DD57
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: white;
+      text-decoration: none; }
+aside{
+	width: 100%; min-height: 500px
+}
+main{
+	width: 100%;min-height: 500px
+}
+.text-do{
+	color: red
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block;text-decoration: none;color: #ffffff
+}
+aside ul li {
+	border-bottom: 1px solid #ffffff
+}
+aside ul li a:hover{
+	background-color: yellow;color: white
+}
+.text-den{
+	color: #4B4B4B
+}
+footer{
+	width: 100%;min-height: 600px;background-color: #F01942
+}
+footer a{
+	text-decoration: none;color: #FFFFFF;
+}
+footer a:hover{
+	color: yellow
+}
+.bg-red{
+min-height: 200px;background-color: #F01942;text-align: center
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+foot ul li a{
+	display: block;padding: 10px;color: white
+}
+main{
+	width: 100%;min-height: 500px
+}
+.gach-chan{
+	border-bottom: 3px solid #F01942
+}
+.vien{
+	width: 100%;min-height: 200px;border: 1px solid #F01942;padding: 10px;position: relative
+}
+.icon{
+justify-content: space-around;left: 0;top: -15%
+}
+.icon a{
+	height: 50px;width: 100%;background-color: yellow;border-radius: 25%;display: flex;align-items: center;justify-content: center;text-decoration: none
+}
+.icon a:hover{
+	background-color: #F01942;color: white
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../Images/bg-jollibee.png");background-repeat: no-repeat;background-size: cover;background-position: center bottom;padding-top: 100px
+}
+h1{
+	padding-top: 15px
+}
+.pd{
+	padding-top: 20px
+}
+.icon1 a{
+	height: 50px;width: 50px;background-color: yellow;border-radius: 50%;display: flex;align-items: center;justify-content: center;text-decoration: none
+}
+.icon1 a:hover{
+	background-color: #F01942;color: white
+}
